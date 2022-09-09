@@ -1,0 +1,22 @@
+body{
+    background: whitesmoke;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.pizza{
+    background: #d0d0d0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column
+
+}
+.pizza:hover{
+    background: #a8a8a8;
+}
